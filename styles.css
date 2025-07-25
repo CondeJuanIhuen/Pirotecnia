@@ -1,0 +1,161 @@
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+#header {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+}
+
+#header-img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+
+#nav-bar {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: yellow;
+}
+
+
+main {
+  padding-top: 100px;
+}
+
+
+.formulario {
+  text-align: center;
+  padding: 30px;
+  background-color: #eee;
+}
+
+#form input[type="email"] {
+  padding: 10px;
+  width: 250px;
+}
+
+#submit {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #555;
+}
+
+
+.beneficios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.beneficio {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  max-width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+.icono {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.producto {
+  background-color: #f2f2f2;
+  color: #000;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.precio {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.boton {
+  padding: 10px 15px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.boton:hover {
+  background-color: darkred;
+}
+
+
+.video-link {
+  display: block;
+  margin-top: 10px;
+  color: blue;
+  text-decoration: underline;
+}
+
+.video-link:hover {
+  color: darkblue;
+}
+
+
+#video {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+@media (max-width: 600px) {
+  body {
+    background-color: #fff;
+  }
+}
+
