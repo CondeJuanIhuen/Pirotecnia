@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Show Libertadores</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="header">
+    <div class="logo">
+      <img id="header-img" src="https://acdn-us.mitiendanube.com/stores/001/859/625/themes/common/logo-1740557073-1631225827-005cd3bd5606d8c74dbb00d3672e88011631225828.png?0" alt="logo">
+      Show Libertadores
+    </div>
+    <nav id="nav-bar">
+      <a class="nav-link" href="#beneficios">Acerca de</a>
+      <a class="nav-link" href="#omega">Torta Omega</a>
+      <a class="nav-link" href="#mini">Mini Show</a>
+      <a class="nav-link" href="#profesional">Torta Profesional</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="formulario">
+      <h2>Inicia sesión para recibir novedades y ofertas exclusivas</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+        <input id="email" type="email" name="email" placeholder="Tu email" required>
+        <br><br>
+        <input id="submit" type="submit" value="Iniciar sesión">
+      </form>
+    </div>
+
+    <section class="beneficios" id="beneficios">
+      <div class="beneficio">
+        <div class="icono">🎇</div>
+        <div class="texto">
+          <h3>Fuegos seguros</h3>
+          <p>Todos nuestros productos están aprobados por ANMAC y probados con efectividad antes de enviarlos.</p>
+        </div>
+      </div>
+      <div class="beneficio">
+        <div class="icono">🚚</div>
+        <div class="texto">
+          <h3>Entrega garantizada</h3>
+          <p>Recibí tu pirotecnia a domicilio o retírala en nuestro local.</p>
+        </div>
+      </div>
+      <div class="beneficio">
+        <div class="icono">💥</div>
+        <div class="texto">
+          <h3>Buena calidad</h3>
+          <p>Los productos provienen del extranjero y son de los mejores del mercado.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="productos">
+      <div class="producto" id="omega">
+        <h3>Torta Omega</h3>
+        <p>Ráfagas de colores y truenos secos</p>
+        <p class="precio">$100.000</p>
+        <button class="boton">ESCOGER</button>
+
+        
+        <iframe id="video" width="100%" height="315"
+          src="https://www.youtube.com/embed/udzOJCePO68"
+          title="Torta Omega"
+          frameborder="0"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <div class="producto" id="mini">
+        <h3>Mini Shows</h3>
+        <p>Combo con chispas y luces</p>
+        <p class="precio">$120.000</p>
+        <button class="boton">ESCOGER</button>
+        <a href="https://www.youtube.com/watch?v=rsIO7Bks3Ro" target="_blank" class="video-link">Ver video en YouTube</a>
+      </div>
+
+      <div class="producto" id="profesional">
+        <h3>Torta Profesional</h3>
+        <p>Combo de alto impacto visual y sonoro</p>
+        <p class="precio">$450.000</p>
+        <button class="boton">ESCOGER</button>
+        <a href="https://www.youtube.com/watch?v=hM7UTnllW_8" target="_blank" class="video-link">Ver video en YouTube</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
